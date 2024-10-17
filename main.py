@@ -3,7 +3,6 @@ import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 import matplotlib.pyplot as plt
 
-# Cria as variáveis do problema
 comida = ctrl.Antecedent(np.arange(0, 11, 1), 'comida')
 servico = ctrl.Antecedent(np.arange(0, 11, 1), 'servico')
 tempo = ctrl.Antecedent(np.arange(0, 11, 1), 'tempo')
